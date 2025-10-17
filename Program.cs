@@ -1,10 +1,14 @@
-﻿namespace prjInventoryManagement
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace prjInventoryManagement
 {
     class Program
     {
         static void Main(string[] args)
         {
-            List<Product> products = new List<Product>  
+            List<Product> products = new List<Product>
             {
                 new Product { ID = 1, ProductName = "Laptop", Quantity = 10, Price = 1000 },
                 new Product { ID = 2, ProductName = "Smartphone", Quantity = 25, Price = 600.00 },
@@ -14,25 +18,30 @@
                 new Product { ID = 5, ProductName = "Vinyl Player", Quantity = 3, Price = 2500.00 }
             };
 
+            // Extension Method: Calculate total inventory value
             double totalValue = products.CalculateTotalValue();
             Console.WriteLine($"-----Total Inventory Value: R{totalValue}-----");
 
             Console.WriteLine();
 
+            // Extension Method: Filter products with low stock
             var lowStockProducts = products.LowStock(5);
             Console.WriteLine("-----Products with Low Stock (less or equal to 5)-----");
 
+            // Iteration: Display low stock products
             foreach (var product in lowStockProducts)
             {
                 Console.WriteLine($"- {product.ProductName} (Quantity: {product.Quantity})");
             }
 
+            // LINQ Query: Select products with Price > 300
             var selection = from p in products
                             where p.Price > 300
                             select p;
 
             Console.WriteLine();
 
+            // Display products selected by LINQ
             Console.WriteLine("-----Products with Price greater than R300-----");
             foreach (var product in selection)
             {

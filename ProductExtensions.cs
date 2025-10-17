@@ -15,7 +15,7 @@ namespace prjInventoryManagement
 
         public static List<Product> LowStock(this List<Product> products, int minQuantity)
         {
-            return products.Where(p => p.Quantity >= minQuantity).ToList();
+            return products.Where(p => p.Quantity < minQuantity).ToList();
         }
     }
 }

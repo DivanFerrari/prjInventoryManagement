@@ -35,6 +35,7 @@ namespace prjInventoryManagement
             }
 
             // LINQ Query: Select products with Price > 300
+            // (Microsoft Learn, 2023)
             var selection = from p in products
                             where p.Price > 300
                             select p;

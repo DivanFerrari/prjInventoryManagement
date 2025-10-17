@@ -10,7 +10,8 @@
                 new Product { ID = 2, ProductName = "Smartphone", Quantity = 25, Price = 600.00 },
                 new Product { ID = 3, ProductName = "Tablet", Quantity = 5, Price = 250.00 },
                 new Product { ID = 4, ProductName = "Headphones", Quantity = 50, Price = 100.00 },
-                new Product { ID = 5, ProductName = "Gaming Console", Quantity = 2, Price = 12000.00 }
+                new Product { ID = 5, ProductName = "Gaming Console", Quantity = 2, Price = 12000.00 },
+                new Product { ID = 5, ProductName = "Vinyl Player", Quantity = 3, Price = 2500.00 }
             };
 
             double totalValue = products.CalculateTotalValue();

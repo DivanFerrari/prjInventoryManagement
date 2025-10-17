@@ -20,3 +20,5 @@ To put it simply, a pointer is a variable that stores the memory address of anot
 - Microsoft Learn (2025b). Unsafe code, pointers to data, and function pointers. [online] learn.microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code [Accessed 17 Oct. 2025].
 
 - Tutorials, D.N. (2024). LINQ Sum Method in C#. [online] Dot Net Tutorials. Available at: https://dotnettutorials.net/lesson/linq-sum-method/ [Accessed 17 Oct. 2025].
+
+- Tutorials, D.N. (n.d.). LINQ Where Method in C#. [online] Dot Net Tutorials. Available at: https://dotnettutorials.net/lesson/where-filtering-operators-in-linq/ [Accessed 17 Oct. 2025].

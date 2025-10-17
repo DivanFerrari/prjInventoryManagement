@@ -18,3 +18,5 @@ To put it simply, a pointer is a variable that stores the memory address of anot
 - Rashid, M. (2016). Pointers And Unsafe Code In C# - Everything You Need To Know. [online] C-sharpcorner.com. Available at: https://www.c-sharpcorner.com/article/pointers-and-unsafe-code-in-c-sharp-everything-you-need-to-know/ [Accessed 17 Oct. 2025].
 
 - Microsoft Learn (2025b). Unsafe code, pointers to data, and function pointers. [online] learn.microsoft.com. Available at: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code [Accessed 17 Oct. 2025].
+
+- Tutorials, D.N. (2024). LINQ Sum Method in C#. [online] Dot Net Tutorials. Available at: https://dotnettutorials.net/lesson/linq-sum-method/ [Accessed 17 Oct. 2025].
